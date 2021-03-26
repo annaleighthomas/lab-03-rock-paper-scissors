@@ -4,12 +4,33 @@ body {
     width: 100%;
     margin: 0%;
     padding: 0%;
+    background-color: #84596B;
 }
 
 input:checked {
-    box-shadow: 2px 2px 10px 2px blueviolet;
+    box-shadow: 2px 2px 10px 2px #AF9BB6;
+    filter: hue-rotate(#AF9BB6);
 }
 
 main {
+    font-size: 2rem;
+}
+
+img {
+    height: 200px;
+}
+
+main {
+    color: #440D0F;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+}
+
+button {
+    background-color: #440D0F;
+    color: white;
+    height: 100px;
+    width: 200px;
     font-size: 2rem;
 }
