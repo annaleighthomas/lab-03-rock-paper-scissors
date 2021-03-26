@@ -41,8 +41,13 @@ buttonEl.addEventListener('click', () => {
 
 
 resetButton.addEventListener('click', () => {
-
-    
+    gameResults.textContent = '';
+    draws = 0;
+    wins = 0;
+    losses = 0;
+    drawCount.textContent = 0;
+    winCount.textContent = 0;
+    loseCount.textContent = 0;
 
 });
 
